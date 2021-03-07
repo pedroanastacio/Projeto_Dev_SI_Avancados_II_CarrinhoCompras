@@ -3,21 +3,7 @@ import { StyleSheet, View, Text } from 'react-native';
 import BadgePromocao from './badgePromocao';
 
 class Produto extends Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {
-          valor: this.props.valor
-        }
-      }
-
-    componentDidMount() {
-        this.setState({ valor: this.state.valor.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) })
-    }
-
-
     render() {
-        //const { desconto, promocaoLeve, promocaoPague} = this.props
 
         return (
             <View style={styles.container}>

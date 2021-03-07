@@ -10,12 +10,12 @@ class App extends Component {
     super(props);
     this.state = {
       listaProdutos: [
-        {id: '1', nome: 'Arroz', valor: 20.00, marca: 'Vasconcelos', quantidade: 12, codigo: '001', desconto: 10, promocao: {leve: 5, pague: 4} },
-        {id: '2', nome: 'Feijão', valor: 10.00, marca: 'Vasconcelos', quantidade: 15, codigo: '002', desconto: 5, promocao: {leve: 6, pague: 5} },
-        {id: '3', nome: 'Detergente', valor: 1.99, marca: 'Ypê', quantidade: 100, codigo: '405', desconto: 20, promocao: {leve: 10, pague: 9} },
-        {id: '4', nome: 'Sal', valor: 2.25, marca: 'Cisne', quantidade: 3, codigo: '057', desconto: 8, promocao: {leve: 3, pague: 2} },
-        {id: '5', nome: 'Leite', valor: 2.99, marca: 'Cemil', quantidade: 24, codigo: '142', desconto: 15, promocao: {leve: 12, pague: 10} },
-        {id: '6', nome: 'Leite Condensado', valor: 6.79, marca: 'Piracanjuba', quantidade: 5, codigo: '009', desconto: 10, promocao: {leve: 5, pague: 4} },
+        {id: '1', nome: 'Arroz', valor: '20,00', marca: 'Vasconcelos', quantidade: 12, codigo: '001', desconto: 10, promocao: {leve: 5, pague: 4} },
+        {id: '2', nome: 'Feijão', valor: '10,00', marca: 'Vasconcelos', quantidade: 15, codigo: '002', desconto: 5, promocao: {leve: 6, pague: 5} },
+        {id: '3', nome: 'Detergente', valor: '1,99', marca: 'Ypê', quantidade: 100, codigo: '405', desconto: 20, promocao: {leve: 10, pague: 9} },
+        {id: '4', nome: 'Sal', valor: '2,25', marca: 'Cisne', quantidade: 3, codigo: '057', desconto: 8, promocao: {leve: 3, pague: 2} },
+        {id: '5', nome: 'Leite', valor: '2,99', marca: 'Cemil', quantidade: 24, codigo: '142', desconto: 15, promocao: {leve: 12, pague: 10} },
+        {id: '6', nome: 'Leite Condensado', valor: '6,79', marca: 'Piracanjuba', quantidade: 5, codigo: '009', desconto: 10, promocao: {leve: 5, pague: 4} },
       ]
     }
   }
